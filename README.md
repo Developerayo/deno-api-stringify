@@ -1,5 +1,29 @@
 # Deno API Stringify
 
+## Get Started
+
+Demo: 
+
+Clone the repository:
+
+```bash 
+git clone git@github.com:Developerayo/deno-api-stringify.git && cd deno-api-stringify
+```
+
+Install the dependencies:
+
+```bash 
+npm install or yarn install
+```
+
+To start the project run following command in your terminal:
+
+```bash 
+yarn start
+```
+
+Now Open [http://localhost:3333](http://localhost:3333) to view it in the browser.
+
 ## Current Response
 
 ```json
