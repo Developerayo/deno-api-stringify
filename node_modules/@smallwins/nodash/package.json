@@ -1,0 +1,30 @@
+{
+  "name": "@smallwins/nodash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^14.0.0",
+    "bubleify": "^0.7.0",
+    "lodash.has": "^4.5.2",
+    "lodash.isboolean": "^3.0.3",
+    "lodash.iserror": "^3.1.1",
+    "lodash.isfunction": "^3.0.8",
+    "lodash.isnumber": "^3.0.3",
+    "lodash.isobject": "^3.0.2",
+    "lodash.isplainobject": "^4.0.6",
+    "lodash.isstring": "^4.0.1",
+    "lodash.isundefined": "^3.0.1",
+    "lodash.property": "^4.4.2",
+    "uglifyjs": "^2.4.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -t bubleify --standalone nodash --node | uglifyjs -c > bundle.js",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2"
+}
